@@ -30,6 +30,12 @@ body {
     padding: 0;
     text-align: center;
     width: 34px;
+    transition: transform 1s,background-color 1s;
+  }
+
+  .square:hover{
+      transform: scale(1.1);
+      background-color: pink;
   }
   
   .square:focus {
